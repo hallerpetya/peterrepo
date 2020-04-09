@@ -1,4 +1,6 @@
-public GitContainerMapping(GitModelObjectContainer gitCommit) {
+public GitContainerMapping(GitModelObjectContainer gitCommit) 
+** Peters change
+{
          IWorkspaceRoot root = ResourcesPlugin.getWorkspace().getRoot();
          List<ResourceTraversal> result = new ArrayList<ResourceTraversal>();
  
